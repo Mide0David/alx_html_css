@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: #ffbe0b;
+    border-top: 6px solid #023047;
+    border-bottom: 6px solid #023047;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
