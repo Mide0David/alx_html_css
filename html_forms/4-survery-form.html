@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      
+    <div class="survey">
+        <form action="" method="post">
+            <div class="name">
+                <label for="cname">Name: </label>
+                <input type="text" name="cname" required>
+            </div>
+            <div class="email">
+                <label for="cemail">Email: </label>
+                <input type="email" name="cemail" required>
+            </div>
+
+            <label for="color">Favorite Color: </label>
+            <select name="colors" id="dcolors" required>
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="green">green</option>
+            </select>
+                
+            <div class="time">
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="date">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

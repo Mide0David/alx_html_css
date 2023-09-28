@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="checkbox">
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="name">
+                <label for="cname">Name: </label>
+                <input type="text" name="cname" required>
+            </div>
+            <div class="email">
+                <label for="cemail">Email: </label>
+                <input type="email" name="cemail" required>
+            </div>
+            <fieldset>
+                <legend>feedback</legend>
+                <ul>
+                    <li>
+                        <label for="excellent">Excellent</label>
+                        <input type="checkbox" id="excellent" name="feedback[]" value="Excellent"required/>
+                    </li>
+                    <li>
+                        <label for="good">Good</label>
+                        <input type="checkbox" id="good" name="feedback[]" value="good"required/>
+                    </li>
+                    <li>
+                        <label for="average">Average</label>
+                        <input type="checkbox" id="average" name="feedback[]" value="average"required/>
+                    </li>
+                    <li>
+                        <label for="poor">Poor</label>
+                        <input type="checkbox" id="poor" name="feedback[]" value="poor"required/>
+                    </li>
+                </ul>
+            </fieldset>
+            <div class="upload">
+                <label for="upload a File">upload</label>
+                <input type="file" name="upload"required>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

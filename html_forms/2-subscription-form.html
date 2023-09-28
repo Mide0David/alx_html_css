@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <div class="name">
+                <label for="sname">Name: </label>
+                <input type="text" name="sname" placeholder="john doe" required/>
+            </div>
+            <div class="email">
+                <label for="semail">Email</label>
+                <input type="email" name="semail" placeholder="example@email.com" required/>
+            </div>
+            <fieldset>
+                <legend>subscription preference</legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="sub" id="monthly" value="monthly" required>
+                        <label for="monthly">monthly</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="sub" id="yearly" value="yearly" required>
+                        <label for="yearly">yearly</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+    
+</body>
+</html>
